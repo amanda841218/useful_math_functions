@@ -5,11 +5,11 @@ def find_prime(num):
 	number = 3
 	
 	if num % 2 == 0:
-		return True
+		return False
 	
-	while count == 0 and num**0.5 > number:
+	while num**0.5 > number:
 		if num % number == 0:
-			return True
+			return False
 		number += 2
 	
-	return False
+	return True
