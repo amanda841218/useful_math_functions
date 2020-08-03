@@ -1,3 +1,5 @@
+#check if an integer is a prime number
+
 def find_prime(num):
 	
 	count = 0
