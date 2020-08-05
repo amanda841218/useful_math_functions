@@ -1,0 +1,9 @@
+#find all the factors of a number
+
+def find_factors(num):
+	
+	num_list = np.arange(1, num + 1)
+	
+	factors = list(filter(lambda x: num % x == 0, num_list))
+	
+	return factors
