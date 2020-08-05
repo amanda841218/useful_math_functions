@@ -10,7 +10,7 @@ def find_prime(num):
 		return False
 	
 	#find if the num is devisible by other numbers only up to the square root of it
-	while num**0.5 > number:
+	while num**0.5 >= number:
 		if num % number == 0:
 			return False
 		number += 2
